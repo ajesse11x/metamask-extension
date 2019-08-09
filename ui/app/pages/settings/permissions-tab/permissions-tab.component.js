@@ -7,6 +7,11 @@ import Button from '../../../components/ui/button'
 
 import { addressSlicer, isValidAddress } from '../../../helpers/utils/util'
 
+// TODO:Bug
+// If the UI is open (probably in its own tab), and new permissions are granted,
+// this errors because the parent object of one of the ".selected" properties
+// here is undefined
+
 export default class PermissionsTab extends Component {
 
   static propTypes = {
