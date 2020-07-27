@@ -9557,12 +9557,19 @@ fast-glob@^2.0.2:
     merge2 "^1.2.3"
     micromatch "^3.1.10"
 
-fast-json-patch@^2.0.4, fast-json-patch@^2.0.6:
+fast-json-patch@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-json-patch/-/fast-json-patch-2.0.6.tgz#86fff8f8662391aa819722864d632e603e6ee605"
   integrity sha1-hv/4+GYjkaqBlyKGTWMuYD5u5gU=
   dependencies:
     deep-equal "^1.0.1"
+
+fast-json-patch@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/fast-json-patch/-/fast-json-patch-2.2.1.tgz#18150d36c9ab65c7209e7d4eb113f4f8eaabe6d9"
+  integrity sha512-4j5uBaTnsYAV5ebkidvxiLUYOwjQ+JSFljeqfTxCrH9bDmlCQaOJFS84oDJ2rAXZq2yskmk3ORfoP9DCwqFNig==
+  dependencies:
+    fast-deep-equal "^2.0.1"
 
 fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
