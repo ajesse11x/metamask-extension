@@ -1226,6 +1226,13 @@
     core-js "^2.5.3"
     regenerator-runtime "^0.11.1"
 
+"@babel/runtime@^7.2.0":
+  version "7.11.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
+  integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.5.5":
   version "7.5.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
@@ -1450,16 +1457,18 @@
   resolved "https://registry.yarnpkg.com/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
   integrity sha512-QPcGmICAPbGLGb6F/yNf/KzKqvFx8z5qx3D1yFqVAjoFmXK35EgyW+cJ57Te3CNsmzblwtzakLGFqHPqrfb4Tw==
 
-"@material-ui/core@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-1.0.0.tgz#857b871038bb300f2d25594ce0cd250be944e71b"
-  integrity sha512-BTLp4goHFKGqCVSjSWNSUZp3/fvN36L0B73Z68i4Hs6TRZaApW5M2JyKmWTsCf/hk4PNKTnZMh141qNQFhxzAw==
+"@material-ui/core@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-1.2.0.tgz#ec372fd44f949faa604c4ccd4b7ee0bc5e08ac8c"
+  integrity sha512-7rh/FAmdmWsjRYJlOEUT2NajlpvC+I28cbGUq0dNFdOHTcxRL/xsUraFvAEFBXvsLrzLkzNPl3mA2Svn80aLVw==
   dependencies:
     "@babel/runtime" "^7.0.0-beta.42"
     "@types/jss" "^9.5.3"
     "@types/react-transition-group" "^2.0.8"
     brcast "^3.0.1"
     classnames "^2.2.5"
+    csstype "^2.5.2"
+    debounce "^1.1.0"
     deepmerge "^2.0.1"
     dom-helpers "^3.2.1"
     hoist-non-react-statics "^2.5.0"
@@ -1471,17 +1480,15 @@
     jss-props-sort "^6.0.0"
     jss-vendor-prefixer "^7.0.0"
     keycode "^2.1.9"
-    lodash "^4.2.0"
     normalize-scroll-left "^0.1.2"
     prop-types "^15.6.0"
-    react-event-listener "^0.5.1"
+    react-event-listener "^0.6.0"
     react-jss "^8.1.0"
     react-popper "^0.10.0"
-    react-scrollbar-size "^2.0.2"
     react-transition-group "^2.2.1"
     recompose "^0.26.0 || ^0.27.0"
     scroll "^2.0.3"
-    warning "^3.0.0"
+    warning "^4.0.1"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -6238,7 +6245,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@^15.5.2, create-react-class@^15.6.0:
+create-react-class@^15.5.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.2.tgz#cf1ed15f12aad7f14ef5f2dfe05e6c42f91ef02a"
   integrity sha1-zx7RXxKq1/FO9fLf4F5sQvke8Co=
@@ -6508,6 +6515,11 @@ csstype@^2.0.0, csstype@^2.2.0:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.4.2.tgz#158e36c69566bf968da63d0ba14eda1c20e8643a"
   integrity sha512-1TnkyZwDy0oUl//6685j2bTMNe61SzntWntijNdmmEzvpYbGmVMZkj204gv4glcQp6z/ypg+YRziT91XVFmOyg==
+
+csstype@^2.5.2:
+  version "2.6.13"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.13.tgz#a6893015b90e84dd6e85d0e3b442a1e84f2dbe0f"
+  integrity sha512-ul26pfSQTZW8dcOnD2iiJssfXw0gdNVX9IJDH/X3K5DGPfj+fUYe3kB+swUY6BF3oZDxaID3AJt+9/ojSAE05A==
 
 csstype@^2.5.7:
   version "2.6.5"
@@ -6845,6 +6857,11 @@ debounce@1.1.0, debounce@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/debounce/-/debounce-1.1.0.tgz#6a1a4ee2a9dc4b7c24bb012558dbcdb05b37f408"
   integrity sha512-ZQVKfRVlwRfD150ndzEK8M90ABT+Y/JQKs4Y7U4MXdpuoUkkrr4DwKbVux3YjylA5bUMUj0Nc3pMxPJX6N2QQQ==
+
+debounce@^1.1.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/debounce/-/debounce-1.2.0.tgz#44a540abc0ea9943018dc0eaa95cce87f65cd131"
+  integrity sha512-mYtLl1xfZLi1m4RtQYlZgJUNQjl4ZxVnHzIR8nLLgi4q1YT8o/WM+MK/f8yfcc9s5Ir5zRaPZyZU6xs1Syoocg==
 
 debug-fabulous@1.X:
   version "1.0.0"
@@ -17611,15 +17628,15 @@ react-docgen@^4.1.0:
     node-dir "^0.1.10"
     recast "^0.17.3"
 
-react-dom@^15.6.2:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.2.tgz#41cfadf693b757faf2708443a1d1fd5a02bef730"
-  integrity sha1-Qc+t9pO3V/rycIRDodH9WgK+9zA=
+react-dom@^16.5.0:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
+  integrity sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==
   dependencies:
-    fbjs "^0.8.9"
     loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.19.1"
 
 react-dom@^16.8.4:
   version "16.8.6"
@@ -17652,15 +17669,14 @@ react-error-overlay@^5.1.6:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.6.tgz#0cd73407c5d141f9638ae1e0c63e7b2bf7e9929d"
   integrity sha512-X1Y+0jR47ImDVr54Ab6V9eGk0Hnu7fVWGeHQSOXHf/C2pF9c6uy3gef8QUeuUiWlNb0i08InPSE5a/KJzNzw1Q==
 
-react-event-listener@^0.5.1:
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/react-event-listener/-/react-event-listener-0.5.3.tgz#a8b492596ad601865314fcc2c18cb87b6ce3876e"
-  integrity sha512-fTGYvhe7eTsqq0m664Km0rxKQcqLIGZWZINmy1LU0fu312tay8Mt3Twq2P5Xj1dfDVvvzT1Ql3/FDkiMPJ1MOg==
+react-event-listener@^0.6.0:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/react-event-listener/-/react-event-listener-0.6.6.tgz#758f7b991cad9086dd39fd29fad72127e1d8962a"
+  integrity sha512-+hCNqfy7o9wvO6UgjqFmBzARJS7qrNoda0VqzvOuioEpoEXKutiKuv92dSz6kP7rYLmyHPyYNLesi5t/aH1gfw==
   dependencies:
-    babel-runtime "^6.26.0"
-    fbjs "^0.8.16"
+    "@babel/runtime" "^7.2.0"
     prop-types "^15.6.0"
-    warning "^3.0.0"
+    warning "^4.0.1"
 
 react-fast-compare@2.0.4:
   version "2.0.4"
@@ -17852,16 +17868,6 @@ react-router@^4.2.0:
     prop-types "^15.5.4"
     warning "^3.0.0"
 
-react-scrollbar-size@^2.0.2:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-scrollbar-size/-/react-scrollbar-size-2.1.0.tgz#105e797135cab92b1f9e16f00071db7f29f80754"
-  integrity sha512-9dDUJvk7S48r0TRKjlKJ9e/LkLLYgc9LdQR6W21I8ZqtSrEsedPOoMji4nU3DHy7fx2l8YMScJS/N7qiloYzXQ==
-  dependencies:
-    babel-runtime "^6.26.0"
-    prop-types "^15.6.0"
-    react-event-listener "^0.5.1"
-    stifle "^1.0.2"
-
 react-select@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/react-select/-/react-select-1.1.0.tgz#626a2de839fdea2ade74dd1b143a9bde34be6c82"
@@ -17966,16 +17972,14 @@ react-trigger-change@^1.0.2:
   resolved "https://registry.yarnpkg.com/react-trigger-change/-/react-trigger-change-1.0.2.tgz#af573398ecef2475362b84f8c08c07fea23914c3"
   integrity sha1-r1czmOzvJHU2K4T4wIwH/qI5FMM=
 
-react@^15.6.2:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
-  integrity sha1-26BDSrQ5z+gvEI8PURZjkIF5qnI=
+react@^16.5.0:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
+  integrity sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==
   dependencies:
-    create-react-class "^15.6.0"
-    fbjs "^0.8.9"
     loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 react@^16.7.0, react@^16.8.4:
   version "16.8.6"
@@ -18345,6 +18349,11 @@ regenerator-runtime@^0.12.0, regenerator-runtime@^0.12.1:
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
   integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
+
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
 
 regenerator-transform@^0.10.0:
   version "0.10.1"
@@ -19169,6 +19178,14 @@ scheduler@^0.13.6:
   version "0.13.6"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.6.tgz#466a4ec332467b31a91b9bf74e5347072e4cd889"
   integrity sha512-IWnObHt413ucAYKsD9J1QShUKkbKLQQHdxRyw73sw4FN26iWr3DY/H34xGPe4nmL1DwXyWmSWmMrA9TfQbE/XQ==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
+  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -20340,11 +20357,6 @@ stealthy-require@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
-
-stifle@^1.0.2:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/stifle/-/stifle-1.0.4.tgz#8b3bcdf52419b0a9c79e35adadce50123c1d8e99"
-  integrity sha1-izvN9SQZsKnHnjWtrc5QEjwdjpk=
 
 store2@^2.7.1:
   version "2.7.1"
@@ -22420,7 +22432,7 @@ warning@^3.0.0:
   dependencies:
     loose-envify "^1.0.0"
 
-warning@^4.0.2:
+warning@^4.0.1, warning@^4.0.2:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
   integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
