@@ -78,7 +78,7 @@
     "eth-block-tracker": "^4.1.0",
     "eth-contract-metadata": "^1.9.2",
     "eth-ens-namehash": "^2.0.8",
-    "eth-json-rpc-filters": "^3.0.4",
+    "eth-json-rpc-filters": "^4.0.0",
     "eth-json-rpc-infura": "^3.2.0",
     "eth-keyring-controller": "^4.0.1",
     "eth-ledger-bridge-keyring": "^0.2.0",
